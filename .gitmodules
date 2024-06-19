@@ -1,0 +1,3 @@
+[submodule "BioT5"]
+	path = BioT5
+	url = https://github.com/QizhiPei/BioT5

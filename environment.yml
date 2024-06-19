@@ -1,0 +1,36 @@
+name: comp4040
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - absl-py
+  - accelerate
+  - datasets==2.13.1
+  - deepchem
+  - evaluate
+  - fsspec==2023.6.0
+  - hydra-core
+  - neptune
+  - nltk
+  - notebook
+  - pdbpp
+  - protobuf=3.20
+  - pynvml
+  - python-levenshtein
+  - python=3.9
+  - pytorch[version='>=1.13.1,<=2.0.1']
+  - pyyaml
+  - schedule
+  - scikit-learn
+  - selfies
+  - sentencepiece!=0.1.92
+  - tabulate
+  - transformers==4.41.2
+  - rouge-score
+  - mkl[version='<=2024.0']
+  - snappy!=1.2.0
+  - kaggle
+  - rdkit
+prefix: /home/ubuntu/miniconda3/envs/comp4040
